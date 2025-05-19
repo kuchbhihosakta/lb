@@ -111,8 +111,8 @@ void* display_live_stats(void* arg) {
 }
 
 int main(int argc, char *argv[]) {
-    if (strcmp(argv[0], "./Ritik") != 0) {
-        fprintf(stderr, "Error: Rename binary to 'Ritik' and run again.\n");
+    if (strcmp(argv[0], "./bgmi") != 0) {
+        fprintf(stderr, "Error: Rename binary to 'bgmi' and run again.\n");
         return 1;
     }
 
